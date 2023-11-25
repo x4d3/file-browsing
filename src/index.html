@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>List des Bandes dessinée</title>
+    <style>
+        body {
+            font-size: 1rem;
+            background: #f5f5f5;
+        }
+        input {
+            box-sizing: border-box;
+            width: 100%; /* Make the input take the full width */
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .tree {
+            position: relative;
+            background: white;
+            margin-top: 20px;
+            padding: 30px;
+            font-family: 'Roboto Mono', monospace;
+            font-size: 0.85rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+        }
+        .tree span {
+            font-size: 13px;
+            letter-spacing: 0.4px;
+            color: #a8a8a8;
+        }
+        .tree ul {
+            padding-left: 5px;
+            list-style: none;
+        }
+        .tree ul li {
+            position: relative;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 15px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        .tree ul li:before {
+            position: absolute;
+            top: 15px;
+            left: 0;
+            width: 10px;
+            height: 1px;
+            margin: auto;
+            content: '';
+            background-color: #666;
+        }
+        .tree ul li:after {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 1px;
+            height: 100%;
+            content: '';
+            background-color: #666;
+        }
+        .tree ul li:last-child:after {
+            height: 15px;
+        }
+        .tree ul a {
+            cursor: pointer;
+        }
+        .tree ul a:hover {
+            text-decoration: none;
+        }
+        .folder{
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="root"></div>
+    <script inline inline-asset="app.js" inline-asset-delete></script>
+</body>
+</html>

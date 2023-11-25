@@ -1,0 +1,53 @@
+{
+  "Folder A": {
+    "SubFolder A": {
+      "File 1": {},
+      "File 2": {},
+      "File 3": {}
+    },
+    "SubFolder B": {
+      "File 1": {},
+      "File 2": {},
+      "File 3": {}
+    },
+    "SubFolder C": {
+      "File 1": {},
+      "File 2": {},
+      "File 3": {}
+    }
+  },
+  "Folder B": {
+    "SubFolder A": {
+      "File 1": {},
+      "File 2": {},
+      "File 3": {}
+    },
+    "SubFolder B": {
+      "File 1": {},
+      "File 2": {},
+      "File 3": {}
+    },
+    "SubFolder C": {
+      "File 1": {},
+      "File 2": {},
+      "File 3": {}
+    }
+  },
+  "Folder C": {
+    "SubFolder A": {
+      "File 1": {},
+      "File 2": {},
+      "File 3": {}
+    },
+    "SubFolder B": {
+      "File 1": {},
+      "File 2": {},
+      "File 3": {}
+    },
+    "SubFolder C": {
+      "File 1": {},
+      "File 2": {},
+      "File 3": {}
+    }
+  }
+}
